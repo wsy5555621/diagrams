@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-03T07:51:03.028Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4750.2 Safari/537.36" etag="jl4pis_gzJwX7GzJWnc5" version="16.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-04T02:45:46.939Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4750.2 Safari/537.36" etag="rA05xZXI2gx3GGrYi_Cp" version="16.1.2" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1236" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -224,8 +224,8 @@
         <mxCell id="sGcyBA6yyYtashd6jMn5-95" value="进入下一环节" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="146" y="751" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="sGcyBA6yyYtashd6jMn5-96" value="说明：&lt;br&gt;1. 本流程图为大体示意。&lt;br&gt;2. 加载的大厅扩展包，即为ISV实现的扩展内容。&lt;br&gt;3. 是否需要授权，是依据在线受理上下文决定的，在G端配置了相关内容后，才会有。&lt;br&gt;4. 中转服务（或者其他通信机制）是连接在线受理和Pad的，具体形式应由服务提供方提供。&lt;br&gt;5. Pad中阅读页面的形式，在线受理不感知。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="110" y="27" width="510" height="90" as="geometry" />
+        <mxCell id="sGcyBA6yyYtashd6jMn5-96" value="说明：&lt;br&gt;1. 本图为大体示意。&lt;br&gt;2. 加载的大厅扩展包，即为ISV实现的扩展内容。&lt;br&gt;3. 是否需要授权，是依据在线受理上下文决定的，在G端配置了相关内容后，才会有。&lt;br&gt;4. 中转服务（或者其他通信机制）是连接在线受理和Pad的，具体形式应由服务提供方提供。&lt;br&gt;5. Pad中阅读页面的形式，在线受理不感知。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="28" width="501" height="88" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
