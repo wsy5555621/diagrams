@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-20T07:43:13.754Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4892.0 Safari/537.36" etag="A8wqSSvvBiwQFUD1YYUK" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-20T14:56:41.966Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4892.0 Safari/537.36" etag="DwlIpqH2PQY4sYWuZTbO" version="16.6.1" type="github">
   <diagram id="Un2dL43cCqqY8p0n4aIN" name="Page-1">
-    <mxGraphModel dx="1298" dy="834" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="2884" dy="1853" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -470,9 +470,6 @@
           <mxGeometry x="-0.2771" y="-2" relative="1" as="geometry">
             <mxPoint x="1" as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="6XyQMZ5qWn5j5m_lhnq5-3" value="交付工程" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="77" y="1350" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6XyQMZ5qWn5j5m_lhnq5-83" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="751" y="2006" width="865" height="195" as="geometry" />
