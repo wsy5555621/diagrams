@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-26T12:23:50.301Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="vua0o_VPKs2poAakmRqh" version="20.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-26T12:41:03.566Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="VUl3KoguXM4a0fitKltP" version="20.3.6" type="github">
   <diagram id="Un2dL43cCqqY8p0n4aIN" name="Page-1">
     <mxGraphModel dx="2678" dy="997" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -1430,6 +1430,71 @@
         </mxCell>
         <mxCell id="-TeN0AM9HiMULnuV2Q_n-192" value="运行时" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#f5f5f5;fontColor=#333333;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-576" y="2805" width="54" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-TeN0AM9HiMULnuV2Q_n-193" value="表单模型" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;shadow=1;glass=1;dashed=1;sketch=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-154.5" y="3997" width="160" height="190" as="geometry">
+            <mxRectangle x="-13" y="3848" width="98" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-TeN0AM9HiMULnuV2Q_n-194" value="+ form: Formily Form" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=1;glass=1;dashed=1;sketch=0;" vertex="1" parent="-TeN0AM9HiMULnuV2Q_n-193">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-TeN0AM9HiMULnuV2Q_n-214" value="+ SchemaField: JSX | string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=1;glass=1;dashed=1;sketch=0;" vertex="1" parent="-TeN0AM9HiMULnuV2Q_n-193">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-TeN0AM9HiMULnuV2Q_n-195" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;rounded=1;shadow=1;glass=1;dashed=1;sketch=0;" vertex="1" parent="-TeN0AM9HiMULnuV2Q_n-193">
+          <mxGeometry y="78" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="-TeN0AM9HiMULnuV2Q_n-196" value="+ schemaParser: func" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=1;glass=1;dashed=1;sketch=0;" vertex="1" parent="-TeN0AM9HiMULnuV2Q_n-193">
+          <mxGeometry y="86" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-TeN0AM9HiMULnuV2Q_n-212" value="+ init: func" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=1;glass=1;dashed=1;sketch=0;" vertex="1" parent="-TeN0AM9HiMULnuV2Q_n-193">
+          <mxGeometry y="112" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-TeN0AM9HiMULnuV2Q_n-213" value="+ addSideEffect: func" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=1;glass=1;dashed=1;sketch=0;" vertex="1" parent="-TeN0AM9HiMULnuV2Q_n-193">
+          <mxGeometry y="138" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-TeN0AM9HiMULnuV2Q_n-216" value="+ toSave: func" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=1;glass=1;dashed=1;sketch=0;" vertex="1" parent="-TeN0AM9HiMULnuV2Q_n-193">
+          <mxGeometry y="164" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-TeN0AM9HiMULnuV2Q_n-217" value="联动模型" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;shadow=1;glass=1;dashed=1;sketch=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="15" y="4305" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="-TeN0AM9HiMULnuV2Q_n-218" value="+ context: CreateContext" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=1;glass=1;dashed=1;sketch=0;" vertex="1" parent="-TeN0AM9HiMULnuV2Q_n-217">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-TeN0AM9HiMULnuV2Q_n-219" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;rounded=1;shadow=1;glass=1;dashed=1;sketch=0;" vertex="1" parent="-TeN0AM9HiMULnuV2Q_n-217">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="-TeN0AM9HiMULnuV2Q_n-220" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=1;glass=1;dashed=1;sketch=0;" vertex="1" parent="-TeN0AM9HiMULnuV2Q_n-217">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-TeN0AM9HiMULnuV2Q_n-226" value="流程变量上下文" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;shadow=1;glass=1;dashed=1;sketch=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="178" y="3997" width="160" height="216" as="geometry" />
+        </mxCell>
+        <mxCell id="-TeN0AM9HiMULnuV2Q_n-227" value="+ felStore: obj" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=1;glass=1;dashed=1;sketch=0;" vertex="1" parent="-TeN0AM9HiMULnuV2Q_n-226">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-TeN0AM9HiMULnuV2Q_n-233" value="+ processVar: obj" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=1;glass=1;dashed=1;sketch=0;" vertex="1" parent="-TeN0AM9HiMULnuV2Q_n-226">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-TeN0AM9HiMULnuV2Q_n-238" value="+ message: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=1;glass=1;dashed=1;sketch=0;" vertex="1" parent="-TeN0AM9HiMULnuV2Q_n-226">
+          <mxGeometry y="78" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-TeN0AM9HiMULnuV2Q_n-228" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;rounded=1;shadow=1;glass=1;dashed=1;sketch=0;" vertex="1" parent="-TeN0AM9HiMULnuV2Q_n-226">
+          <mxGeometry y="104" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="-TeN0AM9HiMULnuV2Q_n-229" value="+ felParser: func" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=1;glass=1;dashed=1;sketch=0;" vertex="1" parent="-TeN0AM9HiMULnuV2Q_n-226">
+          <mxGeometry y="112" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-TeN0AM9HiMULnuV2Q_n-231" value="+ variableParser: func" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=1;glass=1;dashed=1;sketch=0;" vertex="1" parent="-TeN0AM9HiMULnuV2Q_n-226">
+          <mxGeometry y="138" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-TeN0AM9HiMULnuV2Q_n-230" value="+ msgListener: binding" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=1;glass=1;dashed=1;sketch=0;" vertex="1" parent="-TeN0AM9HiMULnuV2Q_n-226">
+          <mxGeometry y="164" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-TeN0AM9HiMULnuV2Q_n-247" value="+ useRef: hooks API" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=1;glass=1;dashed=1;sketch=0;" vertex="1" parent="-TeN0AM9HiMULnuV2Q_n-226">
+          <mxGeometry y="190" width="160" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
